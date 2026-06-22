@@ -13,10 +13,10 @@ SECRET_KEY = "django-insecure-$@^!h&ca9cxoohr@4orvyy36ct(hv(-lbsjr!+&xjrty&zudu%
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["212.85.20.166", "bgmax-tecnologia.com.br"]
+ALLOWED_HOSTS = ['dsplayground.com.br', 'www.dsplayground.com.br', '129.121.55.29', '*']
 
 STATIC_URL = "/python/static/"
-STATIC_ROOT = "/usr/local/lsws/Example/html/django_pratices/public/static"
+STATIC_ROOT = BASE_DIR / "staticfiles"
 
 
 # Application definition
